@@ -447,6 +447,15 @@
 @layer components;
 
 @layer utilities {
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flex {
+    display: flex;
+  }
+
   .inline-flex {
     display: inline-flex;
   }
@@ -468,12 +477,24 @@
     height: calc(var(--spacing) * 10);
   }
 
+  .w-full {
+    width: 100%;
+  }
+
   .shrink-0 {
     flex-shrink: 0;
   }
 
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
   .items-center {
     align-items: center;
+  }
+
+  .justify-between {
+    justify-content: space-between;
   }
 
   .justify-center {
@@ -486,6 +507,14 @@
 
   .gap-2 {
     gap: calc(var(--spacing) * 2);
+  }
+
+  .gap-2\.5 {
+    gap: calc(var(--spacing) * 2.5);
+  }
+
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
   }
 
   .rounded-md {
@@ -525,8 +554,16 @@
     padding-inline: calc(var(--spacing) * 6);
   }
 
+  .px-14 {
+    padding-inline: calc(var(--spacing) * 14);
+  }
+
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
   }
 
   .text-sm {
@@ -704,6 +741,12 @@
   @supports (color: color-mix(in lab, red, red)) {
     .aria-invalid\:ring-destructive\/20[aria-invalid="true"] {
       --tw-ring-color: color-mix(in oklab, var(--destructive) 20%, transparent);
+    }
+  }
+
+  @media not (min-width: 40rem) {
+    .max-sm\:px-4 {
+      padding-inline: calc(var(--spacing) * 4);
     }
   }
 
