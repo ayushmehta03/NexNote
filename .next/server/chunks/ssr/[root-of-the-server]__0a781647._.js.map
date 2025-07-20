@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/ayushmehta/Desktop/NexNote/app/comapnions/page.tsx"],"sourcesContent":["\nconst page = () => {\n  return (\n    <div>companions</div>\n  )\n}\n\nexport default page"],"names":[],"mappings":";;;;;AACA,MAAM,OAAO;IACX,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

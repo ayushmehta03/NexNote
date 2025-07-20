@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/ayushmehta/Desktop/NexNote/app/sign-in/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst Page = () => {\n  return (\n    <div>Page</div>\n  )\n}\n\nexport default Page"],"names":[],"mappings":";;;;;AAEA,MAAM,OAAO;IACX,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

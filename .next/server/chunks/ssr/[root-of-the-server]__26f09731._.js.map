@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/ayushmehta/Desktop/NexNote/app/companions/%5Bid%5D/page.tsx"],"sourcesContent":["import React from 'react'\n\nconst comapnionSession = () => {\n  return (\n    <div>comapnionSession</div>\n  )\n}\n\nexport default comapnionSession"],"names":[],"mappings":";;;;;AAEA,MAAM,mBAAmB;IACvB,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}
