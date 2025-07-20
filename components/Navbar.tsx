@@ -2,6 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import logo from "../public/logo.png"
+import { ModeToggle } from './ModeToggle'
+import NavItems from './ui/NavItems'
+
 const Navbar = () => {
   return (
     <nav className='flex items-center justify-between mx-auto w-full px-14 py-4 max-sm:px-4'>
@@ -13,10 +16,9 @@ const Navbar = () => {
  </div>
  </Link>
 <div className='flex items-center gap-8'>
-<p>Home</p>
-<p>Companions</p>
-<p>My Journey</p>
+    <NavItems />
 <p>Sign In</p>
+<ModeToggle />
 </div>
     </nav>
   )
