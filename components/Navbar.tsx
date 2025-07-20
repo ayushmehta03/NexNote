@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import logo from "../public/logo.png"
+import logo from "../public/logo.svg"
 import { ModeToggle } from './ModeToggle'
 import NavItems from './ui/NavItems'
 
@@ -18,7 +18,6 @@ const Navbar = () => {
 <div className='flex items-center gap-8'>
     <NavItems />
 <p>Sign In</p>
-<ModeToggle />
 </div>
     </nav>
   )
