@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nex Note",
+  title: "Saas",
 };
 
 export default function RootLayout({

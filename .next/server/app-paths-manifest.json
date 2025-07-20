@@ -1,3 +1,4 @@
 {
-  "/companions/page": "app/companions/page.js"
+  "/companions/page": "app/companions/page.js",
+  "/page": "app/page.js"
 }
