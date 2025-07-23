@@ -1,6 +1,7 @@
-import { cn } from "@/lib/utils";
+import { cn, getSubjectColor } from "@/lib/utils";
 import { Table,TableBody,TableCaption,TableCell,TableHead,TableHeader,TableRow } from "./ui/table"
 import Link from "next/link";
+import Image from "next/image";
 
 interface CompanionsListProps{
   title:string;
@@ -25,8 +26,25 @@ const CompanionList = ({title,companions,classNames}:CompanionsListProps) => {
 <TableCell>
   <Link href={`/companions/${companion.id}`}>
   <div className="flex items-center gap-2">
- <div>
+ <div className="size-[72px] flex items-center justify-center rounded-lg max-md:hidden" style={{
+  backgroundColor:getSubjectColor(companion.subject)
+ }}>
+  <Image 
+  src={`/icons/${companion.subjects}.svg`}
+  height={35}
+  width={35}
+  alt="subject-image"
   
+  
+  />
+ </div>
+ <div className="flex flex-col gap-2">
+<p className="font-bold text-2xl">
+  {companion.name}
+</p>
+<p className="text-lg">
+  {companion.topic}
+</p>
  </div>
   </div>
   </Link>

@@ -955,6 +955,14 @@
     z-index: 50;
   }
 
+  .m-1400 {
+    margin: calc(var(--spacing) * 1400);
+  }
+
+  .m-4032 {
+    margin: calc(var(--spacing) * 4032);
+  }
+
   .-mx-1 {
     margin-inline: calc(var(--spacing) * -1);
   }
@@ -1018,6 +1026,11 @@
   .size-9 {
     width: calc(var(--spacing) * 9);
     height: calc(var(--spacing) * 9);
+  }
+
+  .size-\[72px\] {
+    width: 72px;
+    height: 72px;
   }
 
   .h-8 {
@@ -1106,6 +1119,10 @@
     cursor: pointer;
   }
 
+  .flex-col {
+    flex-direction: column;
+  }
+
   .items-center {
     align-items: center;
   }
@@ -1152,6 +1169,10 @@
 
   .overflow-y-auto {
     overflow-y: auto;
+  }
+
+  .rounded-lg {
+    border-radius: var(--radius);
   }
 
   .rounded-md {
@@ -1638,6 +1659,12 @@
   @media not (min-width: 64rem) {
     .max-lg\:w-full {
       width: 100%;
+    }
+  }
+
+  @media not (min-width: 48rem) {
+    .max-md\:hidden {
+      display: none;
     }
   }
 
