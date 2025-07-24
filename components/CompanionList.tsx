@@ -30,7 +30,7 @@ const CompanionList = ({title,companions,classNames}:CompanionsListProps) => {
   backgroundColor:getSubjectColor(companion.subject)
  }}>
   <Image 
-  src={`/icons/${companion.subjects}.svg`}
+  src={`/icons/${companion.subject}.svg`}
   height={35}
   width={35}
   alt="subject-image"

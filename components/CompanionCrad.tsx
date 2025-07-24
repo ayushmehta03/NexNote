@@ -21,7 +21,7 @@ const CompanionCard = ({id,name,topic,subject,duration,color}:CompanionCardProps
     {subject}
     </div>
     <button className="companion-bookmark">
-      <Image src="/public/bookmark.svg" alt="bookmark" width={12.5} height={15} />
+      <Image src="/bookmark.svg" alt="bookmark" width={12.5} height={15} />
     </button>
       </div>
       <h2 className='text-2xl font-bold'>{name}</h2>
